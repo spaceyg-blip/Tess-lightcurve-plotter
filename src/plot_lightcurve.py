@@ -2,15 +2,16 @@ import matplotlib.pyplot as plt
 
 def plot_lc(lc):
 
-    plt.figure(figsize=(10,5))
+    plt.figure(figsize=(12,5))
 
     plt.plot(
         lc.time.value,
-        lc.flux.value
+        lc.flux.value,
+        linewidth=0.8
     )
 
     plt.xlabel(
-        "Time"
+        "Time (BTJD)"
     )
 
     plt.ylabel(
@@ -18,7 +19,18 @@ def plot_lc(lc):
     )
 
     plt.title(
-        "TESS Light Curve"
+        "TESS Light Curve : AB Dor"
+    )
+
+    plt.grid(
+        alpha=0.3
+    )
+
+    plt.tight_layout()
+
+    plt.savefig(
+        "outputs/tess_lightcurve.png",
+        dpi=300
     )
 
     plt.show()

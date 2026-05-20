@@ -29,7 +29,7 @@ def plot_lc(lc):
     plt.tight_layout()
 
     plt.savefig(
-        "outputs/tess_lightcurve.png",
+        "tess_lightcurve.png",
         dpi=300
     )
 

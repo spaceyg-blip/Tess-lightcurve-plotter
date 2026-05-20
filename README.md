@@ -4,7 +4,6 @@
 
 A beginner astronomy project for downloading, visualizing and exploring TESS light curves using Python and Lightkurve.
 
----
 
 ## Features
 
@@ -14,7 +13,7 @@ A beginner astronomy project for downloading, visualizing and exploring TESS lig
 - Save output images
 - Explore stellar variability
 
----
+
 
 ## Dataset
 
@@ -24,7 +23,7 @@ Target used in this project:
 
 **AB Dor**
 
----
+
 
 ## Output Preview
 
@@ -40,10 +39,10 @@ Target used in this project:
 - NumPy
 - Matplotlib
 
----
+
 
 ## Scientific Context
 
 This project demonstrates retrieval and visualization of stellar light curves from TESS observations and serves as an introductory workflow for stellar variability analysis and future light-curve research.
 
----
+
